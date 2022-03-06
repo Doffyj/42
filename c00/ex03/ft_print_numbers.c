@@ -1,10 +1,10 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
   ▄   ▄
-  █▀█▀█     * File_name : ft_print_alphabet.c
+  █▀█▀█     * File_name : ft_print_numbers.c
   █▄█▄█
-   ███  ▄▄  * Creation Date : 2022/03/6 @ 18:33:18
+   ███  ▄▄  * Creation Date : 2022/03/6 @ 18:37:53
    ████▐█ █
-   ████   █ * Last Modified : 2022/03/6 @ 18:34:02
+   ████   █ * Last Modified : 2022/03/6 @ 18:41:22
    ▀▀▀▀▀▀▀
 * Code : xAthaz <xathaz@protonmail.com>  
 	(ascii from fsymbols.com)
@@ -15,13 +15,13 @@ void	ft_putchar(char	c)
 	write(1, &c, 1);
 }
 
-void	ft_print_alphabet(void)
+void	ft_print_numbers(void)
 {
-	char	letter;
+	char	num;
 
-	letter = 97;
+	num = 48;
 	do{
-		ft_putchar(letter);
-		letter = letter + 1;
-	}while(letter < 123);
+		ft_putchar(num);
+		num = num + 1;
+	}while(num < 58);
 }
