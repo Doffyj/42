@@ -4,7 +4,7 @@
   █▄█▄█
    ███  ▄▄  * Creation Date : 2022/03/09 @ 22:12:15
    ████▐█ █
-   ████   █ * Last Modified :
+   ████   █ * Last Modified : 2022/03/09 @ 22:17:26
    ▀▀▀▀▀▀▀
 * Code : xAthaz <xathaz@protonmail.com>  
 	(ascii from fsymbols.com)
@@ -21,5 +21,6 @@ char	*ft_strcpy(char *dest, char *src)
 		i++;
 	}while(src[i] != '\0');
 
+	dest[i] = '\0';
 	return(dest);
 }
