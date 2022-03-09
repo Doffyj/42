@@ -10,7 +10,7 @@
 	(ascii from fsymbols.com)
 _._._._._._._._._._._._._._._._._._._._._._._.*/
 
-int	ftr_str_is_numeric(char *str)
+int	ft_str_is_numeric(char *str)
 {
 	int	i;
 
@@ -22,6 +22,6 @@ int	ftr_str_is_numeric(char *str)
 		if (str[i] < 48 || str[i] > 57)
 			return(0);
 		i++;
-	}
+	}while(str[i] != '\0');
 	return(1);
 }
