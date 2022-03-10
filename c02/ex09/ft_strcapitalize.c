@@ -22,6 +22,6 @@ char	*ft_strcapitalize(char *str)
 		else if(str[i-1] = ' ' && (str[i] > 96 && str[i] < 123))
 			str[i] = str[i] -32;
 		i++;
-	}while(str[i] != '\0);
+	}while(str[i] != '\0');
 	return(str);
 }
