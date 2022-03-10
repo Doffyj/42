@@ -9,7 +9,7 @@
 * Code : xAthaz <xathaz@protonmail.com>  
 	(ascii from fsymbols.com)
 _._._._._._._._._._._._._._._._._._._._._._._.*/
-
+// WIP
 char	*ft_strcapitalize(char *str)
 {
 	int	i;
