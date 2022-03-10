@@ -1,6 +1,6 @@
 /* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
   ▄   ▄
-  █▀█▀█     * File_name : ft_strupcase.c
+  █▀█▀█     * File_name : ft_strlowcase.c
   █▄█▄█
    ███  ▄▄  * Creation Date : 2022/03/10 @ 22:58:27
    ████▐█ █
