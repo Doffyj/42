@@ -2,7 +2,7 @@
  * File: .ft_strncmp.c
  * Author: xAthaz <xathaz@protonmail.com>
  * Date: 29/05/2022 @ 15:04:59
- * Last Modified Date: 29/05/2022 @ 15:07:30
+ * Last Modified Date: 29/05/2022 @ 15:14:55
  * Last Modified By: xAthaz <xathaz@protonmail.com>
  */
 /* ************************************************************************** */
@@ -26,12 +26,12 @@ int 	ft_strncmp(char *s1, char *s2, unsigned int n)
     i = 0;
     while(m<n && s1[m] != '\0' && s2[m] != '\0')
     {
-	i = s1[m] - s2[m];
+	i = (unsigned char)s1[m] - (unsigned char)s2[m];
 	m++;
-	if(i > 0)
+	if ( i !=0 )
 	    break;
     }
-    if(m<n && i != 0 && (s1[m] !='\0' || s2[m] != '\0'))
-	i = s1[m] - s2[m];
+    if(m<n && !i && (s1[m] !='\0' || s2[m] != '\0'))
+	i = (unsigned char)s1[m] - (unsigned char)s2[m];
     return (i);
 }
